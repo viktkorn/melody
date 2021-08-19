@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'BebasNeueBook';
-    src: local('BebasNeueBook'), local('BebasNeueBook'),
+    font-family: 'Bebas Neue Cyrillic';
+    src: local('Bebas Neue Cyrillic'), local('BebasNeueCyrillic'),
         url('../fonts/BebasNeueBook.woff2') format('woff2'),
         url('../fonts/BebasNeueBook.woff') format('woff');
     font-weight: normal;
@@ -68,6 +68,9 @@ a{
 .home-image path:hover{
 	opacity: 1;	
 }
+path.current-floor{
+	opacity: 1;	
+}
 .main-info{
 	display: flex;
 	flex-grow: 1;	
@@ -98,7 +101,7 @@ a{
 	transform: rotate(-135deg);
 }
 .main-title{
-	font-family: 'BebasNeueBook', sans-serif;
+	font-family: 'Bebas Neue Cyrillic', sans-serif;
 	font-size: 37px;
 	line-height: 37px;
 	color: #635854;
@@ -106,7 +109,7 @@ a{
 }
 .counter{
 	color: #635854;
-	font-family: 'BebasNeueBook', sans-serif;
+	font-family: 'Bebas Neue Cyrillic', sans-serif;
 	font-size: 124px;
 	font-weight: bold;
 	margin-top: 10px;
